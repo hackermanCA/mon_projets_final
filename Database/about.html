@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - Conseils Santé</title>
+    <link rel="stylesheet" href="style 1.css">
+</head>
+
+<body>
+     <div class="menu-burger" id="menuBurger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- Menu déroulant -->
+        <div class="menu" id="menu">
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="services.html">Nos services</a>
+            <a href="#" onclick="logout()">Déconnexion</a>
+        </div>
+    
+         <header class="header-banner">
+        <div class="container header-flex">
+            <div class="flex items-center">
+                <h1 class="brand">À propos</h1>
+            </div>
+           
+            <div class="menu-icon">
+                <i class="ri-menu-line text-gray-700 ri-xl"></i>
+            </div>
+        </div>
+    </header>
+
+        <!-- Barre de navigation -->
+        
+
+        <section id="about" class="section">
+            <h2>À propos</h2>
+            <p>Découvrez des conseils simples et efficacespour améliorer votre bien-être au quotidien.
+                notre approche holistique combine santé,alimentation,remèdes naturels et exercices physiques</p>
+        </section>
+
+        <!-- Pied de page -->
+       
+        
+    </div>
+
+    <!-- Script pour la déconnexion -->
+    <script>
+        function logout() {
+            localStorage.removeItem("isLoggedIn");
+            window.location.href = "login.html";
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

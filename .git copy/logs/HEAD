@@ -1,0 +1,43 @@
+0000000000000000000000000000000000000000 17453d4f1ba6e31f6107fcd2d57d3e1d086231fb hackermanCA <sacremavuidi@hotmail.com> 1741642166 +0100	commit (initial): html,login,css 1 et 2
+17453d4f1ba6e31f6107fcd2d57d3e1d086231fb 8a89257c7eabe615d49d3c728628f8fe4c018ef0 hackermanCA <sacremavuidi@hotmail.com> 1741642398 +0100	commit: ajout d'un dossier image
+8a89257c7eabe615d49d3c728628f8fe4c018ef0 e24c7e7186cf24a31b0f96430da2921609cb05a0 hackermanCA <sacremavuidi@hotmail.com> 1741642822 +0100	commit: changement de username
+e24c7e7186cf24a31b0f96430da2921609cb05a0 74d71956e5d2c9ff5d0764219aef97a0a6ec203b hackermanCA <sacremavuidi@hotmail.com> 1741642895 +0100	pull --ff --recurse-submodules --progress origin: Merge made by the 'ort' strategy.
+74d71956e5d2c9ff5d0764219aef97a0a6ec203b b1861fa6fc7391412ddef89999f09fd61db3906d hackermanCA <sacremavuidi@hotmail.com> 1741643130 +0100	commit: changement de l'username
+b1861fa6fc7391412ddef89999f09fd61db3906d efa28c4b8e534fa047dbce75670c77c60e5be9c0 hackermanCA <sacremavuidi@hotmail.com> 1741643772 +0100	commit: changement de l'event
+efa28c4b8e534fa047dbce75670c77c60e5be9c0 ce34bfce0b54eaec953b52ab012f550966dd7403 hackermanCA <sacremavuidi@hotmail.com> 1741644968 +0100	commit: ajout d'une page d'inscription et modification du login
+ce34bfce0b54eaec953b52ab012f550966dd7403 9b57a6a718c333561186fc637d714d52d0b72bd4 hackermanCA <sacremavuidi@hotmail.com> 1741645280 +0100	commit: css corrigé
+9b57a6a718c333561186fc637d714d52d0b72bd4 2598cfcafba78a4a2b3423e9d9df0313633bac2a hackermanCA <sacremavuidi@hotmail.com> 1741977968 +0100	commit: suppression de la page de contact sur l'index html et ajout d'un nouveau dossier contact.html
+2598cfcafba78a4a2b3423e9d9df0313633bac2a 389fc94f51a560cdf0bb640d143b18fa241a81b6 hackermanCA <sacremavuidi@hotmail.com> 1742336741 +0100	commit: Update .hintrc
+389fc94f51a560cdf0bb640d143b18fa241a81b6 55566ef1dfbbf409f609bb41a62e00725fb827d4 hackermanCA <sacremavuidi@hotmail.com> 1742340800 +0100	commit: Update .hintrc
+55566ef1dfbbf409f609bb41a62e00725fb827d4 1b288f8bff176a255e21d0f3820b76991a4b9559 hackermanCA <sacremavuidi@hotmail.com> 1742342938 +0100	commit: ajout d'un backend
+1b288f8bff176a255e21d0f3820b76991a4b9559 5cd177f3f4582eb9e0b20e83c8a4af1a30f7173b hackermanCA <sacremavuidi@hotmail.com> 1742343612 +0100	commit: ajout d'un server.js
+5cd177f3f4582eb9e0b20e83c8a4af1a30f7173b 14094c3bbe7aeb188e584204404d83d83950f7cc hackermanCA <sacremavuidi@hotmail.com> 1742345021 +0100	commit: ajout d'un server.js et d'un bouton pour whatsapp
+14094c3bbe7aeb188e584204404d83d83950f7cc 5ff73aa70b1af3a8a6c52706c21501c3db1f1c96 hackermanCA <sacremavuidi@hotmail.com> 1742346070 +0100	commit: changement de bouton
+5ff73aa70b1af3a8a6c52706c21501c3db1f1c96 11d6e5e72df809c9f15861694c2ceac2571587e3 hackermanCA <sacremavuidi@hotmail.com> 1742346607 +0100	commit: ajout du css pour l'esthétique du bouton whatsapp
+11d6e5e72df809c9f15861694c2ceac2571587e3 6a5f921f11237a00d4e80762bda49b4a19d7283c hackermanCA <sacremavuidi@hotmail.com> 1742347276 +0100	commit: changement de port
+6a5f921f11237a00d4e80762bda49b4a19d7283c f65bbd25a68896b96c53d1f609d8e67f859ba242 hackermanCA <sacremavuidi@hotmail.com> 1742347941 +0100	commit: changement
+f65bbd25a68896b96c53d1f609d8e67f859ba242 c4d39ded6d61263a3ccd9eedb000644222a53e8e hackermanCA <sacremavuidi@hotmail.com> 1742348589 +0100	commit: suppression d'un commentaire
+c4d39ded6d61263a3ccd9eedb000644222a53e8e d94d771624b9d3655467a308d638af2e11a67a7c hackermanCA <sacremavuidi@hotmail.com> 1742563867 +0100	commit: suppression de la section contact
+d94d771624b9d3655467a308d638af2e11a67a7c 3b8f072c724db560b4369ab833227f1ce699cbe2 hackermanCA <sacremavuidi@hotmail.com> 1742591193 +0100	commit: ajout et modification du css
+3b8f072c724db560b4369ab833227f1ce699cbe2 8662a78ea66b7d2812032674dc9d715c8228a7be hackermanCA <sacremavuidi@hotmail.com> 1742594066 +0100	commit: modification du css style 1.css
+8662a78ea66b7d2812032674dc9d715c8228a7be a8f1f5992e6c7e935c2407f545b08ead5cf97891 hackermanCA <sacremavuidi@hotmail.com> 1742594620 +0100	commit: ajout d'une image et correction du css
+a8f1f5992e6c7e935c2407f545b08ead5cf97891 34e8cae509083ea38e8a6e56457e3841d445c0a9 hackermanCA <sacremavuidi@hotmail.com> 1742595281 +0100	commit: modification du css
+34e8cae509083ea38e8a6e56457e3841d445c0a9 e4a8dd488f603156496f2410766108c7f66d3d6b hackermanCA <sacremavuidi@hotmail.com> 1742595693 +0100	commit: ajout du css
+e4a8dd488f603156496f2410766108c7f66d3d6b 04a4fcd28a8c7c2f5d1f8d6d311d75edc277eaf5 hackermanCA <sacremavuidi@hotmail.com> 1742596017 +0100	commit: modification du css
+04a4fcd28a8c7c2f5d1f8d6d311d75edc277eaf5 2124c79d2c582ec7e72fb8c8b11720886d56840d hackermanCA <sacremavuidi@hotmail.com> 1742596995 +0100	commit: modification css
+2124c79d2c582ec7e72fb8c8b11720886d56840d 9781b2c4ca4774ad0e418ce3e1865d9c70dbf285 hackermanCA <sacremavuidi@hotmail.com> 1742597444 +0100	commit: ajout de l'adresse ip de mon ordinateur
+9781b2c4ca4774ad0e418ce3e1865d9c70dbf285 96d784b3b18c269c364d15777ce80e50d0cac0af hackermanCA <sacremavuidi@hotmail.com> 1742597936 +0100	commit: changement sur le href
+96d784b3b18c269c364d15777ce80e50d0cac0af fa5a498fc267c7255491f206664fc531f73b3b9a hackermanCA <sacremavuidi@hotmail.com> 1742605579 +0100	commit: l
+fa5a498fc267c7255491f206664fc531f73b3b9a e0427ff9be89f387204d86ac64a3b8369c8115b7 hackermanCA <sacremavuidi@hotmail.com> 1742606085 +0100	commit: changement complet de l'index et le login
+e0427ff9be89f387204d86ac64a3b8369c8115b7 2b66cb23422729c74338c10851ab3a0cab32919d hackermanCA <sacremavuidi@hotmail.com> 1745321486 +0100	commit: changement complet
+2b66cb23422729c74338c10851ab3a0cab32919d 61d16310b58f18d0e96c1bcd64cdea547e6600ef hackermanCA <sacremavuidi@hotmail.com> 1745322197 +0100	commit: modification de l'adresse IP
+61d16310b58f18d0e96c1bcd64cdea547e6600ef 7fbed61492702631f253c354c9253d94270f4ab3 hackermanCA <sacremavuidi@hotmail.com> 1745324345 +0100	commit: suprresion
+7fbed61492702631f253c354c9253d94270f4ab3 96252badeb603fd5c8190a7c9de3fc5f476872fa hackermanCA <sacremavuidi@hotmail.com> 1747950899 +0100	commit: modification du site
+96252badeb603fd5c8190a7c9de3fc5f476872fa 804efd93dd1d8d3a75068e4c9c8c04519f6870bf hackermanCA <sacremavuidi@hotmail.com> 1748571326 +0100	commit: presque parfait
+804efd93dd1d8d3a75068e4c9c8c04519f6870bf 127aa2eb338d4c381b380f2a155da439fa7128aa hackermanCA <sacremavuidi@hotmail.com> 1748571330 +0100	pull --ff --recurse-submodules --progress origin: Merge made by the 'ort' strategy.
+127aa2eb338d4c381b380f2a155da439fa7128aa f1cff55ddf6454efddf5dbec47becf137562b3ea hackermanCA <sacremavuidi@hotmail.com> 1750114263 +0100	commit: +++++++++
+f1cff55ddf6454efddf5dbec47becf137562b3ea aa56425c60fcf13a876fbdbd90751598dd1c37da hackermanCA <sacremavuidi@hotmail.com> 1750762835 +0100	commit: +++++
+aa56425c60fcf13a876fbdbd90751598dd1c37da 0e2ef7e6e0cddf37e1f01393ad396bdba577f56d hackermanCA <sacremavuidi@hotmail.com> 1750762846 +0100	pull --ff --recurse-submodules --progress origin: Merge made by the 'ort' strategy.
+0e2ef7e6e0cddf37e1f01393ad396bdba577f56d 7d28ad4608322b1d3f0cc2261fc07ed1b2b37b6b hackermanCA <sacremavuidi@hotmail.com> 1750795676 +0100	commit: ++++++
+7d28ad4608322b1d3f0cc2261fc07ed1b2b37b6b 0d0bc86ddc14c7cf997a2521c84f8c680a7cf9cd hackermanCA <sacremavuidi@hotmail.com> 1750796037 +0100	commit: +++
+0d0bc86ddc14c7cf997a2521c84f8c680a7cf9cd 2e697d79fb1ba73311b0abcd92256d658d552297 hackermanCA <sacremavuidi@hotmail.com> 1750796130 +0100	commit: +++

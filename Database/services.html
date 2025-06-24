@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos conseils - Conseils Santé</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="style 1.css">
+</head>
+
+<body>
+     <div class="menu-burger" id="menuBurger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- Menu déroulant -->
+        <div class="menu" id="menu">
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="services.html">Nos services</a>
+            <a href="#" onclick="logout()">Déconnexion</a>
+        </div>
+
+         <header class="header-banner">
+        <div class="container header-flex">
+            <div class="flex items-center">
+                <h1 class="brand">Nos_services</h1>
+            </div>
+        </div>
+    </header>
+
+        <!-- Barre de navigation -->
+    
+
+        <section id="services" class="section">
+            <h2>Nos catégories de bien-être</h2>
+            <p>Explorez nos quatre piliers pour une vie équilibrée et saine. Cliquez sur une catégorie pour découvrir des conseils personalisés.</p>
+            <div class="grid">
+                <div class="card" onclick="loadConseil('alimentation')">
+                      <div class="category-icon">
+                        <i class="ri-apple-line"></i>
+                    </div>
+                    <h3>Alimentation</h3>
+                    <p>Découvrez les aliments qui nourissent votre corps et votre esprit.</p>
+                </div>
+                <div class="card" onclick="loadConseil('exercices')">
+                    <div class="category-icon">
+                        <i class="ri-run-line"></i>
+                    </div>
+                    <h3>Exercices</h3>
+                    <p>activités physiques adaptées à tous les niveaux pour rester en forme.</p>
+                </div>
+                <div class="card" onclick="loadConseil('remedes')">
+                     <div class="category-icon">
+                        <i class="ri-leaf-line"></i>
+                    </div>
+                    <h3>Remèdes naturels</h3>
+                    <p>Solutions naturelles pour soulager les maux du quotidien.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section d'affichage dynamique des conseils -->
+        <section id="conteneur" class="section">
+            <h2>Consultez nos conseils ici</h2>
+            <p>Cliquez sur une carte pour afficher les conseils détaillés.</p>
+        </section>
+
+        <!-- Pied de page -->
+        <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div>
+                    <div class="footer-brand">Bien-être</div>
+                    <div>Votre guide pour une vie saine et équilibrée, naturellement.</div>
+                </div>
+                <div>
+                    <div class="footer-title">Catégories</div>
+                    <ul class="footer-links">
+                        <li><a href="#">Santé</a></li>
+                        <li><a href="#">Alimentation</a></li>
+                        <li><a href="#">Remèdes naturels</a></li>
+                        <li><a href="#">Exercices</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-title">Liens utiles</div>
+                    <ul class="footer-links">
+                        <li><a href="#">À propos</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-title">Suivez-nous</div>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link"><i class="ri-facebook-fill"></i></a>
+                        <a href="#" class="footer-social-link"><i class="ri-instagram-line"></i></a>
+                        <a href="#" class="footer-social-link"><i class="ri-twitter-x-line"></i></a>
+                        <a href="#" class="footer-social-link"><i class="ri-pinterest-line"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Bien-être Naturel. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script pour afficher les conseils -->
+    <script>
+        function loadConseil(service) {
+            let conseils = {
+                "alimentation": `
+                    <div class="conseil-alimentation">
+        <h3>Nourrissez votre corps intelligemment</h3>
+        <p>Une alimentation équilibrée est la base d'une bonne santé. Voici quelques principes à suivre :</p>
+        <ul>
+            <li><i class="ri-check-line"></i> Privilégiez les aliments non transformés et les produits frais</li>
+            <li><i class="ri-check-line"></i> Consommez au moins 5 portions de fruits et légumes par jour</li>
+            <li><i class="ri-check-line"></i> Limitez votre consommation de sucres ajoutés et de sel</li>
+            <li><i class="ri-check-line"></i> Optez pour des graisses saines comme l'huile d'olive, les avocats et les noix</li>
+            <li><i class="ri-check-line"></i> Variez les sources de protéines (légumineuses, poissons, volaille)</li>
+        </ul>
+
+        <h3>Superaliments à intégrer</h3>
+        <ul>
+            <li><strong>Graines de chia :</strong> riches en oméga-3, fibres et protéines. Idéales dans les smoothies ou yaourts.</li>
+            <li><strong>Curcuma :</strong> puissant anti-inflammatoire et antioxydant. À ajouter dans vos plats ou en infusion.</li>
+            <li><strong>Chou kale :</strong> concentré de vitamines et minéraux. Parfait en salade, smoothie ou chips au four.</li>
+            <li><strong>Baies de goji :</strong> antioxydants puissants qui soutiennent le système immunitaire et la vision.</li>
+        </ul>
+
+        <h3>Exemple de menu équilibré</h3>
+        <ul>
+            <li>
+                <strong>Petit-déjeuner :</strong> 
+                <ul>
+                    <li>Bol de yaourt grec avec myrtilles, graines de chia, miel, amandes effilées</li>
+                    <li>Thé vert ou café sans sucre</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Déjeuner :</strong>
+                <ul>
+                    <li>Salade de quinoa, légumes verts, avocat, tomates cerises, poulet grillé ou tofu</li>
+                    <li>Vinaigrette à l'huile d'olive et citron</li>
+                    <li>Dessert : une pomme ou une poire</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Dîner :</strong>
+                <ul>
+                    <li>Pavé de saumon grillé, purée de patate douce, légumes verts vapeur</li>
+                    <li>Collation du soir (optionnelle) : infusion de camomille et 2 carrés de chocolat noir</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+`,
+                "exercices": `
+                    <h3>Conseils d'Exercices</h3>
+                    <p>Conseil 1 : Faites au moins 30 minutes d'exercice modéré cinq fois par semaine.<br>
+                    Conseil 2 : Incluez des exercices de renforcement musculaire au moins deux fois par semaine.<br>
+                    Conseil 3 : Essayez des activités variées pour éviter l'ennui et travailler différents groupes musculaires.</p>`,
+                "remedes": `
+                    <h3>Remèdes Naturels</h3>
+                    <p>Conseil 1 : Utilisez du miel et du citron pour apaiser les maux de gorge.<br>
+                    Conseil 2 : La camomille peut aider à calmer les nerfs et améliorer le sommeil.<br>
+                    Conseil 3 : Le gingembre est excellent pour combattre les nausées et faciliter la digestion.</p>`
+            };
+            document.getElementById("conteneur").innerHTML = conseils[service];
+            document.getElementById("conteneur").scrollIntoView({ behavior: "smooth" });
+        }
+
+        function logout() {
+            localStorage.removeItem("isLoggedIn")
+            window.location.href="login.html"
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

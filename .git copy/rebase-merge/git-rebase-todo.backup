@@ -1,0 +1,72 @@
+pick 17453d4f1ba6e31f6107fcd2d57d3e1d086231fb html,login,css 1 et 2
+pick 8a89257c7eabe615d49d3c728628f8fe4c018ef0 ajout d'un dossier image
+pick e24c7e7186cf24a31b0f96430da2921609cb05a0 changement de username
+pick f3583ec6f9b3a40564fd27e30d23c7d4175d792b Update login.html
+pick b1861fa6fc7391412ddef89999f09fd61db3906d changement de l'username
+pick efa28c4b8e534fa047dbce75670c77c60e5be9c0 changement de l'event
+pick ce34bfce0b54eaec953b52ab012f550966dd7403 ajout d'une page d'inscription et modification du login
+pick 9b57a6a718c333561186fc637d714d52d0b72bd4 css corrigé
+pick 2598cfcafba78a4a2b3423e9d9df0313633bac2a suppression de la page de contact sur l'index html et ajout d'un nouveau dossier contact.html
+pick 389fc94f51a560cdf0bb640d143b18fa241a81b6 Update .hintrc
+pick 55566ef1dfbbf409f609bb41a62e00725fb827d4 Update .hintrc
+pick 1b288f8bff176a255e21d0f3820b76991a4b9559 ajout d'un backend
+pick 5cd177f3f4582eb9e0b20e83c8a4af1a30f7173b ajout d'un server.js
+pick 14094c3bbe7aeb188e584204404d83d83950f7cc ajout d'un server.js et d'un bouton pour whatsapp
+pick 5ff73aa70b1af3a8a6c52706c21501c3db1f1c96 changement de bouton
+pick 11d6e5e72df809c9f15861694c2ceac2571587e3 ajout du css pour l'esthétique du bouton whatsapp
+pick 6a5f921f11237a00d4e80762bda49b4a19d7283c changement de port
+pick f65bbd25a68896b96c53d1f609d8e67f859ba242 changement
+pick c4d39ded6d61263a3ccd9eedb000644222a53e8e suppression d'un commentaire
+pick d94d771624b9d3655467a308d638af2e11a67a7c suppression de la section contact
+pick 3b8f072c724db560b4369ab833227f1ce699cbe2 ajout et modification du css
+pick 8662a78ea66b7d2812032674dc9d715c8228a7be modification du css style 1.css
+pick a8f1f5992e6c7e935c2407f545b08ead5cf97891 ajout d'une image et correction du css
+pick 34e8cae509083ea38e8a6e56457e3841d445c0a9 modification du css
+pick e4a8dd488f603156496f2410766108c7f66d3d6b ajout du css
+pick 04a4fcd28a8c7c2f5d1f8d6d311d75edc277eaf5 modification du css
+pick 2124c79d2c582ec7e72fb8c8b11720886d56840d modification css
+pick 9781b2c4ca4774ad0e418ce3e1865d9c70dbf285 ajout de l'adresse ip de mon ordinateur
+pick 96d784b3b18c269c364d15777ce80e50d0cac0af changement sur le href
+pick fa5a498fc267c7255491f206664fc531f73b3b9a l
+pick e0427ff9be89f387204d86ac64a3b8369c8115b7 changement complet de l'index et le login
+pick 2b66cb23422729c74338c10851ab3a0cab32919d changement complet
+pick 61d16310b58f18d0e96c1bcd64cdea547e6600ef modification de l'adresse IP
+pick 7fbed61492702631f253c354c9253d94270f4ab3 suprresion
+pick 96252badeb603fd5c8190a7c9de3fc5f476872fa modification du site
+pick 804efd93dd1d8d3a75068e4c9c8c04519f6870bf presque parfait
+pick 644faaf771c4db270a47abb1a4bbbcb37b4af329 Update style 1.css
+pick af95c57ee06c50ce2f454bddbf8d60b6fcd1d48c Update style 1.css
+pick f1cff55ddf6454efddf5dbec47becf137562b3ea +++++++++
+pick aa56425c60fcf13a876fbdbd90751598dd1c37da +++++
+pick 41decd33bad8d8ba2545429950656eea459a631b Create README.md
+
+# Rebase 8eaddc7..0e2ef7e onto 8eaddc7 (41 commands)
+#
+# Commands:
+# p, pick <commit> = use commit
+# r, reword <commit> = use commit, but edit the commit message
+# e, edit <commit> = use commit, but stop for amending
+# s, squash <commit> = use commit, but meld into previous commit
+# f, fixup [-C | -c] <commit> = like "squash" but keep only the previous
+#                    commit's log message, unless -C is used, in which case
+#                    keep only this commit's message; -c is same as -C but
+#                    opens the editor
+# x, exec <command> = run command (the rest of the line) using shell
+# b, break = stop here (continue rebase later with 'git rebase --continue')
+# d, drop <commit> = remove commit
+# l, label <label> = label current HEAD with a name
+# t, reset <label> = reset HEAD to a label
+# m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]
+#         create a merge commit using the original merge commit's
+#         message (or the oneline, if no original merge commit was
+#         specified); use -c <commit> to reword the commit message
+# u, update-ref <ref> = track a placeholder for the <ref> to be updated
+#                       to this position in the new commits. The <ref> is
+#                       updated at the end of the rebase
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
